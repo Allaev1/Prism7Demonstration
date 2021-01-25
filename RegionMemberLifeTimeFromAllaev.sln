@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionMemberLifeTimeFromAllaev", "RegionMemberLifeTimeFromAllaev\RegionMemberLifeTimeFromAllaev.csproj", "{3FB6DC20-F9C6-475F-98AC-C4991F03857C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstModuleProject", "FirstModule\FirstModuleProject.csproj", "{6D6A0322-04BF-4C22-B6D8-64B6CBF72C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB6DC20-F9C6-475F-98AC-C4991F03857C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB6DC20-F9C6-475F-98AC-C4991F03857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB6DC20-F9C6-475F-98AC-C4991F03857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB6DC20-F9C6-475F-98AC-C4991F03857C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6A0322-04BF-4C22-B6D8-64B6CBF72C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6A0322-04BF-4C22-B6D8-64B6CBF72C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6A0322-04BF-4C22-B6D8-64B6CBF72C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6A0322-04BF-4C22-B6D8-64B6CBF72C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E673E7DC-C2F1-4358-9B53-7EA3E8448EE0}
+	EndGlobalSection
+EndGlobal

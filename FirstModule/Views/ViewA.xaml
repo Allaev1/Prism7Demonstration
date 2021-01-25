@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="FirstModuleProject.Views.ViewA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Navigate to ViewA1" Margin="0 0 5 0" FontSize="20" Command="{Binding GoToViewA1Command}"/>
+            <Button Content="Navigate to ViewA2" Margin="5 0 0 0" FontSize="20" Command="{Binding GoToViewA2Command}"/>
+        </StackPanel>
+
+        <TextBlock Text="ViewA" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="25"
+                   Grid.Row="1"/>
+
+        <Button Content="Press me" Grid.Row="2" Command="{Binding ShowMessageCommand}"/>
+
+        <TextBox Grid.Row="3" FontSize="15" Text="{Binding Indicator}"/>
+
+        <Border BorderBrush="Black"
+                BorderThickness="1"
+                Grid.Row="4" 
+                Margin="0 5 0 0">
+            <ContentControl prism:RegionManager.RegionName="RegionA12" />
+        </Border>
+    </Grid>
+</UserControl>
