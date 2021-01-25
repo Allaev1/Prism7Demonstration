@@ -28,7 +28,7 @@
             <Button Content="Navigate to ViewB" CommandParameter="ViewB"/>
         </StackPanel>
 
-        <Border BorderBrush="Red" 
+        <Border BorderBrush="Black" 
                 BorderThickness="1"
                 Grid.Column="1"
                 Margin="5">
