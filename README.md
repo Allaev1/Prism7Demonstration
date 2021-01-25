@@ -8,7 +8,7 @@ This project demonstrates:
 
 IRegionMemberLifetime and INavigationAware interfaces  
 
-IRegionMemberLifetime - Prism provides the IRegionMemberLifetime interface,   
+Prism provides the IRegionMemberLifetime interface,   
 which allows you to control the lifetime of views within regions   
 by allowing you to specify whether deactivated views are to be removed from the region or simply marked as deactivated.
 
